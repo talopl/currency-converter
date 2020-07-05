@@ -94,3 +94,9 @@ body {
 .conversion-form button[type="submit"]:hover{
     background-color: pink;
 }
+
+@media only screen and (max-width: 700px){
+    .conversion-form {
+        max-width: 100%;
+    }
+}
