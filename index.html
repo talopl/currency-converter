@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Document</title> 
+  <script src="app.js" defer></script> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> 
+  <form class="conversion-form" id="conversionForm"> 
+   <h1>Convert Your Money</h1> 
+   <div class="from input"> 
+    <input type="number" id="from-conversion" min="0" step="any"> 
+    <select class="from-options options" id="fromOptions"> </select> 
+   </div> 
+   <span class="equals-sign">=</span> 
+   <div class="to input"> 
+    <input type="number" id="to-conversion" disabled> 
+    <select class="to-options options" id="toOptions"></select> 
+   </div> 
+   <button type="submit">Let's Convert It</button> 
+  </form> 
+ </body>
+</html>
