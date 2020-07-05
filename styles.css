@@ -25,7 +25,7 @@ body {
     transform: translateY(30%);
     margin-left: auto;
     margin-right: auto;
-    max-width: 40%;
+    max-width: 960px;
     max-height: 20%;
     padding-left: 10px;
     padding-right: 10px;
@@ -93,10 +93,4 @@ body {
 
 .conversion-form button[type="submit"]:hover{
     background-color: pink;
-}
-
-@media only screen and (max-width: 700px){
-    .conversion-form {
-        max-width: 100%;
-    }
 }
